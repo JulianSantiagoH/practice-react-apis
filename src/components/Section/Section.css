@@ -1,5 +1,22 @@
+body{
+    padding: 20px;
+}
 .card{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 50px;
+    grid-template-columns: repeat(7,1fr);
+    gap: 30px;
+    background-color: rgb(0, 0, 0);
+}
+
+.cardChampion{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(61, 61, 61);
+}
+
+.image{
+    margin-top: 20px;
+    width: 200px;    
 }
